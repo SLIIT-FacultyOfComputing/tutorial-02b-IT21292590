@@ -21,3 +21,26 @@ int main()
     printf("Factorial of %d is %ld\n", no, fac);  
     return 0;
 }
+
+//c++ proogram
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+  int no, fac=1 , i;
+
+  cout << "iput the number : ";
+  cin >> no;
+  
+  for (i=no ; no>=1 ; --no)
+    {
+      fac= fac*no;
+    }
+
+  cout << "the factorial of the number is : " << fac ;
+
+  return 0;
+}
